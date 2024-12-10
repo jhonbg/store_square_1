@@ -1,0 +1,7 @@
+.card-brand{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    padding: 10rem;
+    flex-wrap: wrap;
+}

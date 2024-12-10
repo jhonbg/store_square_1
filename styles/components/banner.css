@@ -1,0 +1,52 @@
+.banner-info{
+    width: 100%;
+    min-height: 55.37rem;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../assets/imagenes/banner.jpg');
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 4rem;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 75.25rem;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    font-family: "Poppins";
+}
+
+.banner-btn{
+    padding-left:7rem;
+    padding-right: 7rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--color-primary);
+    box-shadow: 0px 0px 10px 0px rgba(237, 28, 35, 0.25);
+    border: none;
+    color: var(--color-white);
+    border-radius: 1rem;
+    transition: all 0.3s;
+}
+
+.banner-btn:hover{
+    cursor: pointer;
+    color: var(--color-primary);
+    background-color: var(--color-white);
+}
+
+.banner-info-title1{
+    font-size: 3rem;
+}
+
+.banner-info-title2{
+    font-size: 6rem;
+}
+
+.banner-info_text{
+    font-size: 2rem;
+}

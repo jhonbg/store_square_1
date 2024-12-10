@@ -1,0 +1,39 @@
+.pre-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    padding: 20rem;
+    background-color: var(--color-lighter-gray);
+    flex-wrap: wrap;
+}
+
+.icon-bottom{
+    width: 6rem;
+    height: 6rem;
+    color: var(--colot-black);
+}
+
+.pre-footer-info{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-decoration: none;
+    color: var(--colot-black);
+}
+
+.pre-footer-content{
+    color: #484848;
+    font-family: "Poppins";
+}
+
+.pre-footer-title{
+    font-weight: 500;
+    font-size: 2.5;
+}
+
+.pre-footer-text{
+    font-weight: 400;
+    font-size: 2rem;
+}
