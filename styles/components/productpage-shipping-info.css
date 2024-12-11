@@ -1,0 +1,39 @@
+.shipping-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.shipping-time{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.shipping-price-info{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.shipping-price-info > h3,.shipping-time > h3{
+    color: #000000;
+    font-family: 'Volkhov';
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.shipping-time > p{
+    color: #000000;
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.shipping-price-info > p{
+    color: #000000;
+    font-family: 'Volkhov';
+    font-weight: 400;
+    font-size: 2rem;
+}

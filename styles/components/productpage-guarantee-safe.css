@@ -1,0 +1,19 @@
+.guarantee-safe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 10rem;
+    gap: 2rem;
+    border-radius: 0.625rem;
+}
+
+.guarantee-safe > h2{
+    color: #000000;
+    font-family: 'Volkhov';
+    font-weight: 400;
+    font-size: 2rem;
+}

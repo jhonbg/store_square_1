@@ -15,6 +15,12 @@
 @import './nav-main-right-shop.css';
 @import './card-product-shop.css';
 @import './nav-pages.css';
+@import './product-pages.css';
+@import './main-product-right.css';
+@import './product-size-color.css';
+@import './productpage-quantity.css';
+@import './productpage-shipping-info.css';
+@import './productpage-guarantee-safe.css';
 
 .main{
     width: 100%;

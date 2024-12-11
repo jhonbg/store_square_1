@@ -1,0 +1,201 @@
+.purchase-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    justify-content: flex-start;
+}
+
+.purchase-info > h3{
+    font-family: "Volkhov";
+    color: #666666;
+    font-weight: 400;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.purchase-info > .purchase-title > h2{
+    font-family: "Volkhov";
+    color: #000000;
+    font-size: 3.75rem;
+    font-weight: 400;
+}
+
+.purchase-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.button-stars{
+    display: flex;
+    border: solid 1px #EEEEEE;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.purchase-score{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.purchase-stars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.score-quantity{
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 1.875;
+}
+
+.purchase-price{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.purchase-price > h3{
+    font-size: 3rem;
+    font-family: "Volkhov";
+    font-weight: 400;
+    color: #000000;
+}
+
+.purchase-price > h4{
+    font-size: 2rem;
+    font-family: "Jost";
+    font-weight: 400;
+    color: #666666;
+    text-decoration: line-through;
+}
+
+.purchase-price > p {
+    background-color: #DA3F3F;
+    font-family: "Jost";
+    font-size: 1.375rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius: 1.375rem;
+    padding: 2.5px 9.69px 2.5px 10px;
+}
+
+.Viewers{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.Viewers > img{
+    width: 2.5rem;
+    height: 1.5975rem;
+}
+
+.Viewers > p {
+    display: flex;
+    font-family: "Poppins";
+    font-size: 2rem;
+    color: #8A8A8A;
+}
+
+.sale-time-left{
+    display: flex;
+    width: 100%;
+    height: 6.75rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FDEFEE;
+    border: solid 1px #F8CCCC;
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 3rem;
+}
+
+.sale-time-left > h3{
+    color: #FF706B;
+    font-size: 2.25rem;
+    font-family: "Volkhov";
+}
+
+.time-left{
+    display: flex;
+    align-items: center;
+}
+
+.time-left > .times{
+    color: #FF706B;
+    font-size: 2.5rem;
+    font-family: "Jost";
+    font-weight: 600;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.time-separator{
+    color: #FF706B;
+    font-size: 2.75rem;
+    font-family: "Jost";
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.items-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.info-items-left-complete{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-items-left{
+    color: #666666;
+    font-size: 2rem;
+    font-family: "Jost";
+    font-weight: 400;
+}
+
+.info-items-left-number{
+    color: #666666;
+    font-size: 2rem;
+    font-family: "Jost";
+    font-weight: 700;
+}
+
+.items-left > p{
+    display: flex;
+    flex-direction: row;
+}
+
+.object-bar{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.stock-object-bar{
+    width: 96%;
+    height: 0.625rem;
+    background-color: #DEDEDE;
+    border-radius: 0.25rem;
+}
+
+.existing-object-bar{
+    width: 4%;
+    height: 0.625rem;
+    background-color: #EF2D2D;
+    border-radius: 0.25rem;
+}

@@ -1,0 +1,74 @@
+.productpage-sizes{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.productpage-size{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.title-productpage-size{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.title-productpage-size > .title1-productpage-size{
+    color: #000000;
+    font-family: "Volkhov";
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+
+.title-productpage-size > .title2-productpage-size{
+    color: #000000;
+    font-family: "Volkhov";
+    font-weight: 400;
+    font-size: 2.25rem;
+}
+
+.productpage-size > button{
+    min-width: 5.625rem;
+    min-height: 5.625rem;
+    color: #000000;
+    font-family: "Poppins";
+    font-weight: 400;
+    border: solid 1px #EEEEEE;
+    background-color: transparent;
+    border-radius: 0.625rem;
+}
+
+.productpage-size > .productpage-size-select{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.title-productpage-color{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.title-productpage-color > .title1-productpage-color{
+    color: #000000;
+    font-family: "Volkhov";
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+
+.title-productpage-color > .title2-productpage-color{
+    color: #000000;
+    font-family: "Volkhov";
+    font-weight: 400;
+    font-size: 2.25rem;
+}
+
+.productpage-buttom-colors{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
