@@ -1,0 +1,22 @@
+.nav-pages{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+}
+
+.nav-pages > button{
+    min-width: 5.5rem;
+    min-height: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+}
+
+.nav-pages > .button1{
+    background-color: #F3F3F3;
+}

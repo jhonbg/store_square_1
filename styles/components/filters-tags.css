@@ -1,0 +1,35 @@
+.filters-tags > .filters-tag{
+    text-decoration: none;
+    color: #8A8A8A;
+}
+
+.filters-tags{
+    display: none;
+    margin-top: 2rem;
+}
+
+.filters-tags-select{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .main-left-filters-tags{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filters-tags > .filters-tag{
+        display: flex;
+        margin-right: 1.25rem;
+    }
+
+    .filters-tags{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .filters-tags-select{
+        display: none;
+    }
+}

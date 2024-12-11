@@ -6,6 +6,15 @@
 @import './card-brand.css';
 @import './banner.css';
 @import './pre-footer.css';
+@import './header-shop.css';
+@import './main-shop.css';
+@import './filters-price.css';
+@import './filters-brands.css';
+@import './filters-collections.css';
+@import './filters-tags.css';
+@import './nav-main-right-shop.css';
+@import './card-product-shop.css';
+@import './nav-pages.css';
 
 .main{
     width: 100%;

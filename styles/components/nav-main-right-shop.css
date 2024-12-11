@@ -1,0 +1,44 @@
+.nav-shop{
+    height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filter-nav{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    gap: 0.5rem;
+}
+
+.filter-nav > h3{
+    font-family: "volkhov";
+}
+
+.style-products{
+    display: flex;
+    gap: 1rem;
+}
+
+.style-products > button{
+    width: 4.25rem;
+    height: 4.25rem;
+    border: none;
+    border-radius: 0.25rem;
+    transition: all 0.3s;
+    border: transparent;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style-products > button > img,.style-products > button > svg{
+    width: 2rem;
+    height: 2rem;
+}
+
+.style-products > button:hover{
+    border: solid 1px rgb(0, 0, 0, 0.15);
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.main-left-filters-price{
+    display: flex;
+    flex-direction: column;
+}
+
+.filters-price{
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.filters-price > .filter-price{
+    text-decoration: none;
+    color: #8A8A8A;
+}
+
+@media screen and (min-width: 768px) {
+    .filters-price{
+        display: flex;
+    }
+
+    .filters-price-select{
+        display: none;
+    }
+}
