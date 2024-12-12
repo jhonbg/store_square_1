@@ -1,0 +1,38 @@
+.header-minicart{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.minicart-title > p{
+    color: #000000;
+    font-family: "volkhov";
+    font-size: 6rem;
+    margin-right:30rem;
+}
+
+.header-nav-minicart{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 13rem;
+}
+
+.header-nav-minicart > .nav-minicart{
+    text-decoration: none;
+    display: flex;
+    color: #000000;
+    font-family: "Poppins";
+    font-size: 2rem;
+    align-items: center;
+}
+
+.minicart-product-select{
+    border-bottom: solid 1px #484848;
+    padding: 1rem;
+}

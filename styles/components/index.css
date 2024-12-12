@@ -21,6 +21,8 @@
 @import './productpage-quantity.css';
 @import './productpage-shipping-info.css';
 @import './productpage-guarantee-safe.css';
+@import './minicarpage-header.css';
+@import './modal-minicart.css';
 
 .main{
     width: 100%;
