@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQ1 Academy Store</title>
+    <link rel="stylesheet" href="../styles/homepages.css"/>
+    <link rel="icon" href="https://www.square1.io/favicon.svg"/>
+</head>
+<body class="body-cartpage">
+    <header class="header header-cartpage">
+        <div class="main-header main-header-cartpage">
+            <div class="header-logo-box">
+                <button class="menu-btn">
+                    <svg 
+                        class="header-icon icons-menu" 
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>              
+                <a href="./homepages.html">
+                    <img 
+                    src="../assets/imagenes/SQ1 Academy (1) 1.svg" 
+                    alt="Square1 Academy Store Logo" 
+                    width="120" 
+                    height="37" 
+                    class="img-logo"/>
+                </a>
+            </div>
+            <div class="header-icons">
+                <a href="#" class="header-icon icons-search">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg> 
+                </a>  
+                <a href="#" class="header-icon icons-profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                      </svg>                      
+                </a>
+                <a href="" class="header-icon icons-shopping">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                      </svg>                      
+                </a>           
+            </div>
+        </div>
+        <nav class="header-nav-shop header-nav-cartpage">
+            <a href="#" class="nav-items">wOmEn</a>
+            <a href="#" class="nav-items">mEn</a>
+            <a href="#" class="nav-items">kIdS</a>
+            <a href="#" class="nav-items">aCcEsOrIeS</a>
+            <a href="#" class="nav-items">aBoUt uS</a>
+            <a href="#" class="nav-items">nEwS</a>
+            <a href="#" class="nav-items">contaca US</a>
+        </nav>
+    </header>
+    <main class="main-cardpage">
+        <section class="cartpage-title">
+            <h2>Shopping Cart</h2>
+            <div class="cartpage-title-info">
+                <p>Home</p>
+                <img src="../assets/imagenes/Vector7.png">
+                <p>Your Shopping Cart</p>
+            </div>
+        </section>
+        <section>
+            <div class="cartpage-columns">
+                <h3>Product</h3>
+                <h3>Price</h3>
+                <h3>Quantity</h3>
+                <h3 class="cartpage-columns-total">Total</h3>
+            </div>
+            <div class="cartpage-columns-content">
+                <div class="cartpage-columns-photo">
+                    <img src="../assets/imagenes/Product Image.png">
+                    <div class="cartpage-columns-photo-info">
+                        <h3>Mini dress with ruffled straps</h3>
+                        <p>Color : Red</p>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+                <h3 class="cartpage-columns-content-price">$14.90</h3>
+                <div class="modal-button-quatity cartpage-button-quatity">
+                    <button class="btn-minus">-</button>
+                    <P>01</P>
+                    <button class="btn-plus">+</button>
+                </div>
+                <h3 class="cartpage-columns-content-total">$14.90</h3>
+            </div>
+        </section>
+        <div class="cartpage-content-total-price-address">
+            <div class="fusion-total-price">
+                <section class="minicart-modal-checkbox cartpage-checkbox">
+                    <input type="checkbox">
+                    <h2>For</h2>
+                    <h3>$10.00</h3>
+                    <h2>Please Wrap The Product</h2>
+                </section>
+                <section class="modal-content-total-price cartpage-content-total-price">
+                    <div class="modal-total-price">
+                        <h3>Subtotal</h3>
+                        <h3>$100.00</h3>
+                    </div>
+                    <button>Checkout</button>
+                    <a href="./minicart.html">View Cart</a>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

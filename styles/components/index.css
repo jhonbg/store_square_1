@@ -23,6 +23,7 @@
 @import './productpage-guarantee-safe.css';
 @import './minicarpage-header.css';
 @import './modal-minicart.css';
+@import './cartpage.css';
 
 .main{
     width: 100%;
