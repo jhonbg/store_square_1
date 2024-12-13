@@ -133,6 +133,10 @@
     flex-direction: column;
 }
 
+.cartpage-content-total-price{
+    margin-bottom: 4rem;
+}
+
 .cartpage-content-total-price-address{
     display: flex;
     flex-direction: row-reverse;

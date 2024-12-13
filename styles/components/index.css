@@ -24,6 +24,7 @@
 @import './minicarpage-header.css';
 @import './modal-minicart.css';
 @import './cartpage.css';
+@import './checkoutpage-main.css';
 
 .main{
     width: 100%;
